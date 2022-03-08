@@ -1,0 +1,29 @@
+p{
+    background-color: grey;
+    text-align: center;
+}
+
+#primeiro{
+    color: brown;
+    font-family: monospace;
+    text-align: left;
+    text-indent: 100px;
+    border-color:red; 
+    border-style:dashed; 
+    border-width: 10px;
+}
+
+.paragrafo{
+    color: #f4ffe2;
+    font-style: oblique !important;
+    line-height: 10px;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Burian_urn%2C_AD_1000-1250%2C_Marajoara_culture_-_AMNH_-_DSC06177_b.jpg/169px-Burian_urn%2C_AD_1000-1250%2C_Marajoara_culture_-_AMNH_-_DSC06177_b.jpg");
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
