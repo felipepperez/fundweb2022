@@ -1,0 +1,78 @@
+h2{
+    color:red;
+}
+
+#titulo{
+    color:blue;
+}
+
+.titulos{
+    background-color: grey;
+}
+
+h2.titulos{
+    font-size: xxx-large;
+}
+
+.fundo-verde.maior{
+    background-color: greenyellow;
+}
+
+table th{
+    color: orange;
+}
+
+tr > td:last-child{
+    color: aquamarine;
+}
+
+td+td{
+    font-weight: bolder;
+}
+
+p#paragrafo::first-line{
+    color: white;
+    background-color: brown;
+}
+
+p#paragrafo::first-letter{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+a#visite{
+    font-size: small;
+}
+
+a#visite:hover{
+    font-size: x-large;
+}
+
+a.text:hover{
+    background-color: brown;
+    color: azure;
+}
+
+[id*="top"]{
+    color: green;
+}
+
+[id="lastone"]::first-letter{
+    background-color: aqua;
+}
+
+[id~="fourth"]{
+    font-weight: 700;
+}
+
+[id|="top"]:hover{
+    color: orange;
+}
+
+[id^="last"]:hover{
+    cursor: pointer;
+}
+
+[id$="th"]:hover{
+    font-size: x-large;
+}
