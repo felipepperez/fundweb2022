@@ -123,3 +123,59 @@ body{
         transform: rotate(360deg);
     }
 }
+
+#bola{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: absolute;
+    bottom: 0px;
+    background-position-x: 2.5px;
+    background-position-y: 2.5px;
+
+    animation-name: bola;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bola {
+    0%{
+        right: calc(100% - 50px);
+        transform: rotate(0deg);
+        bottom: 0%;
+    }
+    13%{
+        bottom:0%;
+    }
+    15%{
+        bottom:75%;
+    }
+    17%{
+        bottom:0%;
+    }
+    23%{
+        bottom:0%;
+    }
+    25%{
+        bottom:50%;
+    }
+    27%{
+        bottom:0%;
+    }
+    75%{
+        bottom:0%;
+    }
+    77%{
+        bottom:25%;
+    }
+    79%{
+        bottom:0%;
+    }
+    100%{
+        right: 0%;
+        transform: rotate(720deg);
+        bottom: 0%;
+    }
+}
