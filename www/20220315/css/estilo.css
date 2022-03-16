@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+#divisoria{
+    width: 100%;
+    background-color: red;
+    height: 5px;
+
+    animation-name: barra;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+#divisoria:hover{
+    animation-play-state: paused;
+}
+
+@keyframes barra{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+#center{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50px;
+    border-top-style: solid;
+    border-top-color: rgba(255, 0, 0, 0.66);
+    border-top-width: 10px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+    z-index: 10;
+}
+#center1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50px;
+    border-top-style: solid;
+    border-top-color: rgba(255, 68, 0, 0.66);
+    border-top-width: 10px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+    z-index: 9;
+}
+#center2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 255, 0.66);
+    border-top-width: 10px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    z-index: 8;
+}
+#center3{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50px;
+    border-top-style: solid;
+    border-top-color: rgba(0, 128, 0, 0.66);
+    border-top-width: 10px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    z-index: 7;
+}
+#center4{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    border-radius: 50px;
+    border-top-style: solid;
+    border-top-color: rgba(255, 255, 0, 0.66);
+    border-top-width: 10px;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    z-index: 6;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
