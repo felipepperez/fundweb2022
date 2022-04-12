@@ -1,0 +1,95 @@
+
+
+img{
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+img:hover{
+    animation: grayscale 2.5s linear;
+}
+
+@keyframes grayscale{
+    0%{
+        filter: gray;
+    -webkit-filter: grayscale(100%);
+    }
+    100%{
+        filter: none;
+    -webkit-filter: grayscale(0%);
+    }
+}
+
+.divider1{
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+    background-color: darkblue;
+    animation: loading 5s cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes loading{
+    0%{
+        width: 0%;
+        background-color: darkred;
+    }
+    100%{
+        width: 100%;
+        background-color: darkblue;
+    }
+}
+
+.divider2{
+    height: 8px;
+    width: 0%;
+    overflow: hidden;
+    background-color: darkblue;
+    animation: loading2 5s linear;
+}
+
+.container{
+    overflow: hidden;
+}
+
+@keyframes loading2{
+    0%{
+        width: 0%;
+        background-color: darkred;
+    }
+    25%{
+        width: 25%;
+        background-color: darkorange;
+        transform: translateX(0px);
+    }
+    100%{
+        width: 25%;
+        background-color: darkblue;
+        transform: translateX(400%);
+    }
+}
+
+.divider3{
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+    background-color: darkblue;
+    animation: loading 2s cubic-bezier(1, 0, 0, 1);
+}
+
+.divider4{
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+    background-color: darkblue;
+    animation: loading 2s cubic-bezier(1, 0, 0, 1);
+}
+
+
+.padingzero{
+    padding: 0 !important;
+}
+
+.rigthalign{
+    display: flex;
+    justify-content: flex-end;
+}
