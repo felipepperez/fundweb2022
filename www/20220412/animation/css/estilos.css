@@ -20,7 +20,7 @@ body{
     background-size: 100%;
     background-repeat: repeat;
     animation: animation-rev 0.75s ease forwards;
-    cursor: pointer;
+    cursor: u;
 }
 
 .gradient-text:hover{
