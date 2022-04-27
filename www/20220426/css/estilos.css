@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    align-items: center;
+}
+
+table tr {
+    border-style: none !important;
+}
+
+td {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: xxx-large;
+    border-width: thick !important;
+    border-color: black !important;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: aquamarine;
+    color: aquamarine;
+}
+
+h3{
+    text-align: center;
+}
+
+tr:nth-child(1)>td:nth-child(1) {
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+tr:nth-child(1)>td:nth-child(2) {
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+tr:nth-child(1)>td:nth-child(3) {
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+tr:nth-child(2)>td:nth-child(1) {
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+tr:nth-child(2)>td:nth-child(2) {
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+tr:nth-child(2)>td:nth-child(3) {
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+
+tr:nth-child(3)>td:nth-child(1) {
+    border-right-style: solid;
+}
+
+tr:nth-child(3)>td:nth-child(2) {
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+tr:nth-child(3)>td:nth-child(3) {
+    border-left-style: solid;
+}
+
+.none{
+    color: white;
+}
